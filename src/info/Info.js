@@ -1,7 +1,6 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-
+import self from "../img/self.png";
+import mock1 from "../img/mock1.png";
+import mock2 from "../img/mock2.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -174,6 +173,71 @@ export const info = {
   cours: [
     {
       link: "https://www.coursera.org/user/d275b85eb86ce5f20e43b02aff6db98b",
+    },
+  ],
+  experiences: [
+    {
+      name: "Adlab Factory",
+      date: "Février 2025 - Présent",
+      description:
+        "Stagiaire en développement Full Stack. Participation au développement et à l’intégration de solutions web pour divers clients.",
+      technologies: ["Laravel", "WordPress", "Dolibarr"],
+    },
+    {
+      name: "Direction Régionale Casablanca-Settat",
+      date: "Octobre 2024 - Février 2025",
+      description:
+        "Développement d'une application web permettant la gestion et le suivi des courriers administratifs.",
+      technologies: ["MERN Stack"],
+    },
+  ],
+  projects: [
+    {
+      name: "Gestion des Absences (OFPPT - PFE)",
+      date: "Juin 2024 - Septembre 2024",
+      description:
+        "Développement d’un système avancé de gestion des absences des étudiants.",
+      technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+    },
+    {
+      name: "Gestion des Absences (École)",
+      date: "Février 2024 - Mai 2024",
+      description:
+        "Application web permettant la gestion des absences des élèves et enseignants.",
+      technologies: ["PHP", "JS", "HTML", "Bootstrap"],
+    },
+    {
+      name: "Gestion de Tâches",
+      date: "Octobre 2023 - Janvier 2024",
+      description:
+        "Développement d’une application web de gestion des tâches avec API Laravel et interface React.js.",
+      technologies: ["Laravel", "API", "React.js"],
+    },
+    {
+      name: "Site E-commerce",
+      date: "Juin 2023 - Septembre 2023",
+      description:
+        "Développement d’un site e-commerce avec gestion de stock, suivi des commandes et dashboard admin.",
+      technologies: ["PHP", "JS", "HTML"],
+    },
+    {
+      name: "Portfolio Personnel",
+      date: "Mars 2023 - Mai 2023",
+      description:
+        "Création d’un site web personnel pour présenter mes compétences et projets.",
+      technologies: ["HTML", "CSS", "JS"],
+    },
+  ],
+  education: [
+    {
+      name: "ISTA NTIC 2",
+      date: "2023 - 2025",
+      description: "Développement Digital - Sidi Maarouf",
+    },
+    {
+      name: "Lycée Fahd Bent el Assi",
+      date: "2020 - 2021",
+      description: "Bac Physique Chimie",
     },
   ],
 };
