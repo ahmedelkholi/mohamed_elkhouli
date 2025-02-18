@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mohamed_elkhouli/static/css/main.6a680195.css",
+    "main.js": "/mohamed_elkhouli/static/js/main.1035948d.js",
+    "static/media/self.png": "/mohamed_elkhouli/static/media/self.24fd41fb775793bfcd69.png",
+    "static/media/mock1.png": "/mohamed_elkhouli/static/media/mock1.a1c4cc7b57776e04b29f.png",
+    "static/media/Web Development in React js Build a Web App-1.jpg": "/mohamed_elkhouli/static/media/Web Development in React js Build a Web App-1.a9dd8a5c57aee5bd6af6.jpg",
+    "static/media/mock2.png": "/mohamed_elkhouli/static/media/mock2.8f3633777d694b4a4098.png",
+    "static/media/meta-1.jpg": "/mohamed_elkhouli/static/media/meta-1.aa2478acc0647e4cbcd9.jpg",
+    "static/media/Developing Front-End Apps with React-1.jpg": "/mohamed_elkhouli/static/media/Developing Front-End Apps with React-1.fb795a0a796e4f1585e9.jpg",
+    "static/media/Getting Started with Git and GitHub-1.jpg": "/mohamed_elkhouli/static/media/Getting Started with Git and GitHub-1.bce52b39c6c446d6c998.jpg",
+    "static/media/Introduction to Cloud Computing-1.jpg": "/mohamed_elkhouli/static/media/Introduction to Cloud Computing-1.ff21ed8a45da0b15a0fa.jpg",
+    "static/media/Mastering Laravel Framework and PHP-1.jpg": "/mohamed_elkhouli/static/media/Mastering Laravel Framework and PHP-1.4e550421fde9f796c281.jpg",
+    "index.html": "/mohamed_elkhouli/index.html",
+    "main.6a680195.css.map": "/mohamed_elkhouli/static/css/main.6a680195.css.map",
+    "main.1035948d.js.map": "/mohamed_elkhouli/static/js/main.1035948d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a680195.css",
+    "static/js/main.1035948d.js"
+  ]
+}
