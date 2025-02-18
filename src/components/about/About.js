@@ -12,8 +12,7 @@ export default function About({innerRef}) {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
                 about{firstName} </p>
-            <p><span style={{color: info.baseColor}}>about{firstName} <span
-                className={Style.green}>(main)</span> $ </span>
+            <p><span style={{color: info.baseColor}}>about {firstName}  </span>
                 {info.bio}
             </p>
         </>;
@@ -23,8 +22,7 @@ export default function About({innerRef}) {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
             </p>
-            <p><span style={{color: info.baseColor}}>skills/tools <span
-                className={Style.green}>(main)</span> $</span> ls</p>
+            <p><span style={{color: info.baseColor}}>skills/tools </span> </p>
             <p style={{color: info.baseColor}}> Proficient With</p>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
@@ -35,7 +33,32 @@ export default function About({innerRef}) {
             </ul>
         </>;
     }
+    function afficherCertificats() {
+        return (
+          <div>
+            <p>
+              <span style={{ color: info.baseColor }}>
+                {firstName}
+                {info.lastName.toLowerCase()} $
+              </span>{" "}
+              cd certificates
+            </p>
+            <p>
+              <span style={{ color: info.baseColor }}>certificates $</span> :
+            </p>
+            <a href="https://www.coursera.org/user/d275b85eb86ce5f20e43b02aff6db98b" target="_blank" rel="noreferrer">
+              Coursera Profile{" "} click here 👈
+            </a>
+            <ul>
+              {info.certificates.map((certificate, index) => (
+                <li key={index}>{certificate.name}</li>
+              ))}
+            </ul>
+          </div>
+        );
+    }
 
+    
     function miscText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
@@ -54,6 +77,7 @@ export default function About({innerRef}) {
         <Box ref={innerRef} display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'} id={'about'}>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
+            <Terminal text={afficherCertificats()}/>
             <Terminal text={miscText()}/>
         </Box>
     )
